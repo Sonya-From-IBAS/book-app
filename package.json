@@ -1,0 +1,33 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c --watch",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonya-From-IBAS/book-app.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Leonid Pakhomov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sonya-From-IBAS/book-app/issues"
+  },
+  "homepage": "https://github.com/Sonya-From-IBAS/book-app#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.46.0",
+    "rollup": "^3.27.0",
+    "rollup-plugin-import-css": "^3.3.1"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}
